@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('page-title')
-    Home - MICOHSAT
+    Home - Police HMO - Promoting Excellent Healthcare 
 @endsection
 
 @section('body-content')

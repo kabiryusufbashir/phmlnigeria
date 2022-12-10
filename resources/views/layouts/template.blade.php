@@ -22,122 +22,157 @@
     <body>
         <!-- Navigation  -->
         <div class="text-center text-2xl text-green-600">@include('layouts.messages')</div>
-        <div id="navDesktop" class="z-40 fixed bg-white w-full lg:grid grid-cols-5 gap-3 shadow lg:px-24 px-8 py-4 flex justify-between items-center">
-            <div class="flex justify-between w-full items-center lg:col-span-2">
-                <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
-                    <svg class="w-10 h-10 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        <div id="navDesktop" class="z-40 fixed bg-white w-full">
+            <div class="text-xs flex justify-between text-gray-700 py-4 shadow lg:px-24 px-8 items-center">
+                <div class="flex">
+                    <span>24-Hr Contact Center |</span>
+                    <span class="flex ml-2">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <span class="ml-1"><a href="tel:+2349055293971">+ 234 905 529 3971</a>, </span>
+                        <span class="ml-1"><a href="tel:+2348174210058">+ 234 817 421 0058</a></span>
+                    </span>
+                    <span class="flex ml-2">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <span class="ml-1"><a href="mailto:info@callcenter@phmlnigeria.com">callcenter@phmlnigeria.com</a></span>
+                    </span>
                 </div>
-                <a href="/">
-                    <div class="flex items-center">
-                        <div>
-                            <img class="w-16 lg:w-24 lg:ml-0" src="{{ asset('images/micohsat.png') }}" alt="MICOHSAT Logo">
-                        </div>
-                        <span class="ml-5 font-extrabold text-green-700">
-                            MIKIYA INTERNATIONAL <br> COLLEGE OF HEALTH SCIENCE AND TECHNOLOGY (MICOHSAT) <br> BARI
-                        </span>
-                    </div>
-                </a>
+                <div class="flex">
+                    <span class="ml-2">
+                        <a class="flex items-center py-1" href="https://web.facebook.com/bornowomen/">
+                            <span><i class="fa-brands fa-facebook text-xl"></i></span>
+                        </a>
+                    </span>
+                    <span class="ml-2">
+                        <a class="flex items-center py-1" href="https://twitter.com/bornowomendevt">
+                            <span><i class="fa-brands fa-twitter text-xl"></i></span>
+                        </a>
+                    </span>
+                    <span class="ml-2">
+                        <a class="flex items-center py-1" href="https://www.linkedin.com/company/bowdi/">
+                            <span><i class="fa-brands fa-linkedin text-xl"></i></span>
+                        </a>
+                    </span>
+                    <span class="ml-2">
+                        <a class="flex items-center py-1" href="#">
+                            <span><i class="fa-brands fa-instagram text-xl"></i></span>
+                        </a>
+                    </span>
+                </div>
             </div>
-            <div class="lg:col-span-3 hidden lg:block">
-                <nav class="lg:flex justify-between list-none uppercase font-medium items-center">
-                    <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/">Home</a></li>
-                    <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                        <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                            About MICOSHAT
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    Our Staff
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    Message From Director
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                        <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                            ACADEMICS
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    AVAILABLE COURSES
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    ACADEMIC CALENDAR
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                        <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                            ADMISSION
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    APPLY NOW
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    PROCESS OF ADMISSION
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    ENTRY REQUIREMENT
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                        <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                            FACILITIES
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    LABORATORY
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    LIBRARY
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                    ACCOMODATION
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/contact">Contact Us</a></li>
-                </nav>
+            <div class="lg:grid grid-cols-5 gap-3 flex justify-between items-center py-4 lg:px-24 px-8">
+                <div class="flex justify-between w-full items-center lg:col-span-2">
+                    <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
+                        <svg class="w-10 h-10 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <a href="/">
+                        <div class="flex items-center">
+                            <div>
+                                <img class="w-16 lg:w-64 lg:ml-0" src="{{ asset('images/phmlnigeria.png') }}" alt="phmlnigeria Logo">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="lg:col-span-3 hidden lg:block">
+                    <nav class="lg:flex justify-between list-none uppercase font-medium items-center">
+                        <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/">Home</a></li>
+                        <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                About MICOSHAT
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Our Staff
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Message From Director
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                ACADEMICS
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        AVAILABLE COURSES
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        ACADEMIC CALENDAR
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                ADMISSION
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        APPLY NOW
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        PROCESS OF ADMISSION
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        ENTRY REQUIREMENT
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                FACILITIES
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        LABORATORY
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        LIBRARY
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        ACCOMODATION
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/contact">Contact Us</a></li>
+                    </nav>
+                </div>
             </div>
         </div>
         <!-- Mobile Nav -->
@@ -300,7 +335,7 @@
             <div class="py-7 text-center text-xs bg-green-900 text-white">
                 <footer>
                     Designed & Developed by <a class="hover:text-green-600 " href="#">Bari IT Consult</a><br>
-                    Copyright © @php echo date('Y') @endphp MICOHSAT. All Rights Reserved 
+                    Copyright © @php echo date('Y') @endphp phmlnigeria. All Rights Reserved 
                 </footer>
             </div>
         </div>
