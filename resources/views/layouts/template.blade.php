@@ -23,7 +23,8 @@
         <!-- Navigation  -->
         <div class="text-center text-2xl text-green-600">@include('layouts.messages')</div>
         <div id="navDesktop" class="z-40 fixed bg-white w-full">
-            <div class="text-xs flex justify-between text-gray-700 py-4 shadow lg:px-24 px-8 items-center">
+            <!-- Contact Info  -->
+            <div class="text-xs flex justify-between text-gray-700 py-4 border-b lg:px-24 px-8 items-center">
                 <div class="flex">
                     <span>24-Hr Contact Center |</span>
                     <span class="flex ml-2">
@@ -38,28 +39,29 @@
                 </div>
                 <div class="flex">
                     <span class="ml-2">
-                        <a class="flex items-center py-1" href="https://web.facebook.com/bornowomen/">
+                        <a class="flex items-center py-1" href="https://web.facebook.com/ph.ml.336">
                             <span><i class="fa-brands fa-facebook text-xl"></i></span>
                         </a>
                     </span>
                     <span class="ml-2">
-                        <a class="flex items-center py-1" href="https://twitter.com/bornowomendevt">
+                        <a class="flex items-center py-1" href="https://twitter.com/PoliceHmo">
                             <span><i class="fa-brands fa-twitter text-xl"></i></span>
                         </a>
                     </span>
                     <span class="ml-2">
-                        <a class="flex items-center py-1" href="https://www.linkedin.com/company/bowdi/">
+                        <a class="flex items-center py-1" href="https://www.linkedin.com/company/police-health-maintenance-limited/">
                             <span><i class="fa-brands fa-linkedin text-xl"></i></span>
                         </a>
                     </span>
                     <span class="ml-2">
-                        <a class="flex items-center py-1" href="#">
+                        <a class="flex items-center py-1" href="https://www.instagram.com/thepolicehmo/">
                             <span><i class="fa-brands fa-instagram text-xl"></i></span>
                         </a>
                     </span>
                 </div>
             </div>
-            <div class="lg:grid grid-cols-5 gap-3 flex justify-between items-center py-4 lg:px-24 px-8">
+            <!-- NavBar  -->
+            <div class="lg:grid grid-cols-5 gap-3 flex justify-between items-center py-4 lg:px-24 px-8 shadow">
                 <div class="flex justify-between w-full items-center lg:col-span-2">
                     <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
                         <svg class="w-10 h-10 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -77,7 +79,7 @@
                         <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/">Home</a></li>
                         <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                About MICOSHAT
+                                About
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                                     <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
                                 </svg>
@@ -85,24 +87,34 @@
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        About Us
+                                        Our Company
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        Our Staff
+                                        The Board
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        Message From Director
+                                        Management Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Our Departments
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Awards
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                ACADEMICS
+                                Services
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                                     <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
                                 </svg>
@@ -110,19 +122,44 @@
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        AVAILABLE COURSES
+                                        Why Phml
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        ACADEMIC CALENDAR
+                                        Tertiary Services Intervention
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Responsive Customer Care
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Continuous Quality Assurance
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Retiree Scheme
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Monitoring & Evaluation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Enlightenment
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                ADMISSION
+                                Media Center
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                                     <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
                                 </svg>
@@ -130,47 +167,39 @@
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        APPLY NOW
+                                        News
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        PROCESS OF ADMISSION
+                                        Events
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        ENTRY REQUIREMENT
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
-                            <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                FACILITIES
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
-                                </svg>
-                            </a>
-                            <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
-                                <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        LABORATORY
+                                        Photo Gallery
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        LIBRARY
+                                        Publications
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
-                                        ACCOMODATION
+                                        Testimonials
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                        Downloads
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/contact">Contact Us</a></li>
+                        <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="https://erp.phmlnigeria.com/app/hospital/auth/">Provider's Portal</a></li>
+                        <li class="bg-green-700 px-4 py-2 rounded hover:text-green-600 text-white hover:border-b-2 hover:border-green-600"><a href="#">Register Now</a></li>
                     </nav>
                 </div>
             </div>
@@ -221,7 +250,7 @@
 
         <!-- Footer  -->
         <div class="relative top-12">
-            <div id="footer" class="bg-green-700 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-white">
+            <div id="footer" class="bg-gray-100 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-gray-900">
                 <div class="col-span-2">
                     <div>
                         <h1 class="text-3xl font-bold mb-4">Office Address</h1>
@@ -239,7 +268,7 @@
                 <div class="col-span-1">
                     <div>
                         <h1 class="text-3xl font-bold mb-4">Navigation</h1>
-                        <nav class="list-none text-white">
+                        <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="/">
                                     <span>Home</span>
@@ -276,7 +305,7 @@
                 <div class="col-span-1">
                     <div>
                         <h1 class="text-3xl font-bold mb-4">Academics</h1>
-                        <nav class="list-none text-white">
+                        <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="/">
                                     <span>Available Courses</span>
@@ -303,27 +332,27 @@
                 <div class="col-span-1">    
                     <div>
                         <h1 class="text-3xl font-bold mb-4">Follow Us</h1>
-                        <nav class="list-none text-white">
+                        <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="https://twitter.com/bornowomendevt">
-                                    <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
-                                    <span>Twitter</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="https://web.facebook.com/bornowomen/">
+                                <a class="flex items-center py-1" href="https://web.facebook.com/ph.ml.336">
                                     <span><i class="fa-brands fa-facebook text-xl"></i></span> &nbsp;&nbsp;
                                     <span>Facebook</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="https://www.linkedin.com/company/bowdi/">
+                                <a class="flex items-center py-1" href="https://twitter.com/PoliceHmo">
+                                    <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="https://www.linkedin.com/company/police-health-maintenance-limited/">
                                     <span><i class="fa-brands fa-linkedin text-xl"></i></span> &nbsp;&nbsp;
                                     <span>LinkedIn</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1" href="https://www.instagram.com/thepolicehmo/">
                                     <span><i class="fa-brands fa-instagram text-xl"></i></span> &nbsp;&nbsp;
                                     <span>Instagram</span>
                                 </a>
@@ -332,10 +361,10 @@
                     </div>
                 </div>
             </div>
-            <div class="py-7 text-center text-xs bg-green-900 text-white">
+            <div class="py-7 text-center text-xs bg-gray-900 text-white">
                 <footer>
-                    Designed & Developed by <a class="hover:text-green-600 " href="#">Bari IT Consult</a><br>
-                    Copyright © @php echo date('Y') @endphp phmlnigeria. All Rights Reserved 
+                    Designed & Developed by  <a class="hover:text-green-600" href="https://teampiccolo.com">Team Piccolo</a><br>
+                    Copyright © @php echo date('Y') @endphp Police HMO - Promoting Excellent Healthcare. All Rights Reserved 
                 </footer>
             </div>
         </div>

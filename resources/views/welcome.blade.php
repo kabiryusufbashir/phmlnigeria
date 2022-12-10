@@ -8,16 +8,18 @@
     <!-- Banner -->
     <div>
         @include('layouts.banner')
-        <div class="absolute lg:top-48 top-52 lg:left-72">
-            <div class="text-white font-extrabold p-8" id="slogan">        
-                <p class="flex justify-center text-white font-semibold shadow-lg p-5">MIKIYA INTERNATIONAL <br> COLLEGE OF HEALTH SCIENCE AND TECHNOLOGY (MICOHSAT) <br> BARI</p>
+        <div class="absolute lg:top-72 top-52">
+            <div class="text-white font-extrabold p-8 bg-green-700 rounded-tr-lg" id="slogan">        
+                <p class="flex justify-center text-white font-semibold p-5">
+                    Welcome to Police HMO
+                </p>
             </div>
         </div>
     </div>
     <!-- Body Contents  -->
     <div class="pt-8 pb-5 text-justify">
         <!-- Slogan  -->
-        <div id="about-us" class="lg:px-24 px-8 py-8 mt-8 shadow-md">
+        <div id="about-us" class="lg:px-24 px-8 py-8 mt-8">
             <!-- logo  -->
             <div>
                 <img class="w-64 mx-auto" src="{{ asset('images/micohsat.png') }}" alt="MIKIYA INTERNATIONAL COLLEGE OF HEALTH SCIENCE AND TECHNOLOGY (MICOHSAT) LOGO">
