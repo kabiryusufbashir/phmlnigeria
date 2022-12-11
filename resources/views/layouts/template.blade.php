@@ -250,53 +250,24 @@
 
         <!-- Footer  -->
         <div class="relative top-12">
-            <div id="footer" class="bg-gray-100 py-12 px-8 lg:px-24 lg:grid grid-cols-5 gap-8 text-gray-900">
-                <div class="col-span-2">
+            <div id="footer" class="bg-gray-100 py-12 px-8 lg:px-24 lg:grid grid-cols-4 gap-8 text-gray-900">
+                <div class="col-span-1">
                     <div>
-                        <h1 class="text-3xl font-bold mb-4">Office Address</h1>
-                        <p class="py-1 text-left lg:w-2/3 w-full">
-                            No. 1 Engr. Surajo Garba Complex beside Bari Science Academy <br> along Falgore road Bari Town of Rogo LG <br> Kano State
-                        </p>
-                    </div>
-                    <div class="mt-4">
-                        <h1 class="text-3xl font-bold mb-4">Vision</h1>
-                        <p class="py-1 lg:w-2/3 w-full">
-                            Leading institution in the production of well trained and qualitative health care providers across the community
-                        </p>
+                        <img class="w-16 lg:w-64 lg:ml-0" src="{{ asset('images/phmlnigeria.png') }}" alt="phmlnigeria Logo">
                     </div>
                 </div>
                 <div class="col-span-1">
                     <div>
-                        <h1 class="text-3xl font-bold mb-4">Navigation</h1>
+                        <h1 class="text-2xl font-bold mb-4">Our Company</h1>
                         <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="/">
-                                    <span>Home</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#about-us">
                                     <span>About Us</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#aims-objectives">
-                                    <span>Our Staff</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#mission">
-                                    <span>Laboratory</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>library</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>Accomodation</span>
+                                <a class="flex items-center py-1" href="/#about-us">
+                                    <span>Our Offerings</span>
                                 </a>
                             </li>
                         </nav>
@@ -304,16 +275,16 @@
                 </div>
                 <div class="col-span-1">
                     <div>
-                        <h1 class="text-3xl font-bold mb-4">Academics</h1>
+                        <h1 class="text-2xl font-bold mb-4">Resources</h1>
                         <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="/">
-                                    <span>Available Courses</span>
+                                    <span>FAQs</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="/#about-us">
-                                    <span>Academic Calendar</span>
+                                    <span>Downloads</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
@@ -323,7 +294,12 @@
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="#">
-                                    <span>Process of Admission</span>
+                                    <span>Cookies and Privacy Policy</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="#">
+                                    <span>webmail</span>
                                 </a>
                             </li>
                         </nav>
@@ -331,30 +307,37 @@
                 </div>
                 <div class="col-span-1">    
                     <div>
-                        <h1 class="text-3xl font-bold mb-4">Follow Us</h1>
-                        <nav class="list-none text-gray-900">
+                        <h1 class="text-2xl font-bold mb-4">Contact Us</h1>
+                        <div class="my-2">
+                            #517 Sylvester Ugoh Crescent, (Police Pension Building), Jabi, Abuja
+                        </div>
+                        <div class="my-2">
+                            +2348174210058 <br>
+                            +2349055293969 <br>
+                            +2348132529114 
+                        </div>
+                        <div class="my-2">
+                            info@phmlnigeria.com
+                        </div>
+                        <nav class="list-none text-gray-900 flex">
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="https://web.facebook.com/ph.ml.336">
                                     <span><i class="fa-brands fa-facebook text-xl"></i></span> &nbsp;&nbsp;
-                                    <span>Facebook</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="https://twitter.com/PoliceHmo">
                                     <span><i class="fa-brands fa-twitter text-xl"></i></span> &nbsp;&nbsp;
-                                    <span>Twitter</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="https://www.linkedin.com/company/police-health-maintenance-limited/">
                                     <span><i class="fa-brands fa-linkedin text-xl"></i></span> &nbsp;&nbsp;
-                                    <span>LinkedIn</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
                                 <a class="flex items-center py-1" href="https://www.instagram.com/thepolicehmo/">
                                     <span><i class="fa-brands fa-instagram text-xl"></i></span> &nbsp;&nbsp;
-                                    <span>Instagram</span>
                                 </a>
                             </li>
                         </nav>
