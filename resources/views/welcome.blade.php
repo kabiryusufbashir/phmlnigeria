@@ -8,10 +8,16 @@
     <!-- Banner -->
     <div>
         @include('layouts.banner')
-        <div class="absolute lg:top-72 top-52">
+        <div class="absolute lg:top-48 top-52">
             <div class="text-white font-extrabold p-8 bg-green-700 rounded-tr-lg" id="slogan">        
                 <p class="flex justify-center text-white font-semibold p-5">
-                    Welcome to Police HMO
+                    Introducing the Police HMO Providers' Portal
+                </p>
+                <p class="lg:text-lg">
+                    Code Requests, Claims Processing & Reconciliation has never been easier.
+                    Make submissions, get feedback & monitor progress ALL IN REAL TIME.
+                    So, what are you waiting for? Sign up and sign in now <br>
+                    <div class="mt-4 lg:w-1/6 mx-auto bg-gray-200 text-gray-700 px-2 py-2 rounded hover:text-green-600 hover:border-b-2 hover:border-green-600"><a href="#">Let's Go!</a></div>
                 </p>
             </div>
         </div>
