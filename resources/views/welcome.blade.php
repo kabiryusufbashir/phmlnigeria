@@ -25,29 +25,27 @@
     <!-- Body Contents  -->
     <div class="pt-8 pb-5 text-justify">
         <!-- Slogan  -->
-        <div id="about-us" class="lg:px-24 px-8 py-8 mt-8">
-            <!-- logo  -->
-            <div>
-                <img class="w-64 mx-auto" src="{{ asset('images/micohsat.png') }}" alt="MIKIYA INTERNATIONAL COLLEGE OF HEALTH SCIENCE AND TECHNOLOGY (MICOHSAT) LOGO">
-            </div>
+        <div class="lg:px-24 px-8 py-16 lg:grid grid-cols-2 gap-8 bg-gray-100">
             <!-- About Us  -->
-            <div class="text-center lg:w-2/3 mx-auto">
-                <div class="text-center text-2xl font-medium py-2 border-b-2 border-green-600 w-1/4 mx-auto">Preamble</div>
-                <p class="py-3">
-                    MICOHSAT is a college of Health Science and Technology established in the year 2022 with 50 expected staff strength and 1500 expected students population located at No. 1 Engr. Surajo Garba Complex beside Bari Science Academy along Falgore road Bari Town of Rogo LG Kano State.
+            <div>
+                <div class="text-2xl font-semibold py-2 border-b-2 border-green-600 w-full">Welcome to Police HMO</div>
+                    <p class="py-3 text-2xl">
+                        We provide healthcare services to all serving and retired Police Men and their families, under the NHIS Scheme
+                    </p>
+            </div>
+            <div class="lg:flex justify-between items-center">
+                <p class="py-3 w-1/6 text-4xl">
+                    We cover treatments outside the NHIS Benefit Package (Tertiary Assistance)
+                </p>
+                <p>
+                    <div class="mt-4 w-1/3 mx-auto bg-red-700 text-white text-2xl text-center px-2 py-6 rounded hover:text-green-600 hover:border-b-2 hover:border-green-600"><a href="#">How to Apply</a></div>    
                 </p>
             </div>
         </div>
         <!-- Our Vision  -->
-        <div id="vision" class="bg-white mt-8 py-8 shadow-lg">
-            <div class="text-center text-2xl font-medium py-6">Our Vision</div>
+        <div id="vision" class="bg-gray-500 py-8">
             <div class="pb-6">
-                <img class="w-24 mx-auto" src="{{ asset('images/vision.png') }}" alt="Vision">
-            </div>
-            <div class="lg:px-24 px-8 mx-auto pb-8">
-                <p class="text-center lg:w-1/3 mx-auto">
-                    Leading institution in the production of well trained and qualitative health care providers across the community
-                </p>
+                <img class="w-1/2 mx-auto" src="{{ asset('images/police-man-family.png') }}" alt="police-man-family">
             </div>
         </div>
 
