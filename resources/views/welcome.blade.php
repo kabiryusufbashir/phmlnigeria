@@ -28,8 +28,8 @@
         <div class="lg:px-24 px-8 py-16 lg:grid grid-cols-2 gap-8 bg-gray-100">
             <!-- About Us  -->
             <div>
-                <div class="text-2xl font-semibold py-2 border-b-2 border-green-600 w-full">Welcome to Police HMO</div>
-                    <p class="py-3 text-2xl">
+                <div class="text-3xl font-semibold py-2 border-b-2 border-green-600 w-full">Welcome to Police HMO</div>
+                    <p class="py-3 text-xl">
                         We provide healthcare services to all serving and retired Police Men and their families, under the NHIS Scheme
                     </p>
             </div>
@@ -38,27 +38,57 @@
                     We cover treatments outside the NHIS Benefit Package (Tertiary Assistance)
                 </p>
                 <p>
-                    <div class="mt-4 w-1/3 mx-auto bg-red-700 text-white text-2xl text-center px-2 py-6 rounded hover:text-green-600 hover:border-b-2 hover:border-green-600"><a href="#">How to Apply</a></div>    
+                    <div class="mt-4 w-1/3 mx-auto bg-red-700 text-white text-2xl text-center px-2 py-4 rounded hover:text-green-600 hover:border-b-2 hover:border-green-600"><a href="#">How to Apply</a></div>    
                 </p>
             </div>
         </div>
         <!-- Our Vision  -->
         <div id="vision" class="bg-gray-500 py-8">
             <div class="pb-6">
-                <img class="w-1/2 mx-auto" src="{{ asset('images/police-man-family.png') }}" alt="police-man-family">
+                <img class="w-3/4 mx-auto relative top-14" src="{{ asset('images/police-man-family.png') }}" alt="police-man-family">
             </div>
         </div>
 
         <!-- Our Mission  -->
-        <div id="mission" class="bg-white mt-8 py-8 shadow">
-            <div class="text-center text-2xl font-medium py-6">Our Mission</div>
-            <div class="pb-6">
-                <img class="w-24 mx-auto" src="{{ asset('images/objective.png') }}" alt="Mission">
-            </div>
-            <div class="lg:px-24 px-8 mx-auto pb-8">
-                <p class="text-center lg:w-1/3 mx-auto">
-                    To effectively train a qualitative health care providers with the use of higher groomed staff at both Academic and Professional level
-                </p>
+        <div id="mission" class="bg-white mt-8 py-8">
+            <div class="text-center text-4xl font-semibold py-12">We Are The Only HMO For The Nigeria Police Force</div>
+            <div class="lg:px-24 px-8 mx-auto pb-8 lg:grid grid-cols-3 gap-6">
+                <div>
+                    <div class="text-xl py-3">We Are</div>
+                    <div class="text-3xl py-3 font-semibold">Committed</div>
+                    <div class="py-3">
+                        <p>
+                            No other HMO truly understands how demanding the job of the Police officer is, like we do
+                        </p>
+                        <p class="my-2">
+                            Therefore, the Police Health Maintenance Limited is committed to ensuring that all eligible serving and retired Nigeria Police personnel and their immediate family members, receive excellent healthcare
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-xl py-3">We Have</div>
+                    <div class="text-3xl py-3 font-semibold">Integrity</div>
+                    <div class="py-3">
+                        <p>
+                            We continuously interface between our enrollees and the over 2,000 NHIS accredited healthcare providers in our network, spread across the four corners of Nigeria
+                        </p>
+                        <p class="my-2">
+                            Through our rigorous and continuous monitoring and evaluation of these healthcare providers, the Police Health Maintenance Limited ensures that these healthcare providers meet the globally accepted quality standard and other standards as set out in the NHIS operational guidelines
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-xl py-3">We Have</div>
+                    <div class="text-3xl py-3 font-semibold">Value for Life</div>
+                    <div class="py-3">
+                        <p>
+                            Your health and that of your family is our priority
+                        </p>
+                        <p class="my-2">
+                            It is not what we do <i>intermittently</i> that ensures quality service delivery to you and your family, but what we do <b>consistently</b> by applying well thought-out processes and the use of up-to-date technologies
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
