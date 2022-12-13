@@ -71,10 +71,17 @@ body{
 @media only screen and (max-width:768px)
 {
     body{
-        font-size: 90%;
+        font-size: 80%;
     }
 
-    #banner-img{
+    #slogan{
+        display: none;
+    }
+
+    footer{
+        font-size: 70%;
+    }
+    /* #banner-img{
         height: 90vh;
-    }    
+    }     */
 }

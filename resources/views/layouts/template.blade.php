@@ -27,12 +27,12 @@
             <div class="text-xs flex justify-between text-gray-700 py-4 border-b lg:px-24 px-8 items-center">
                 <div class="flex">
                     <span>24-Hr Contact Center |</span>
-                    <span class="flex ml-2">
+                    <span class="flex ml-2 lg:block hidden">
                         <span><i class="fa-solid fa-phone"></i></span>
                         <span class="ml-1"><a href="tel:+2349055293971">+ 234 905 529 3971</a>, </span>
                         <span class="ml-1"><a href="tel:+2348174210058">+ 234 817 421 0058</a></span>
                     </span>
-                    <span class="flex ml-2">
+                    <span class="hidden flex ml-2 lg:block">
                         <span><i class="fa-solid fa-envelope"></i></span>
                         <span class="ml-1"><a href="mailto:info@callcenter@phmlnigeria.com">callcenter@phmlnigeria.com</a></span>
                     </span>
@@ -64,12 +64,12 @@
             <div class="lg:grid grid-cols-5 gap-3 flex justify-between items-center py-4 lg:px-24 px-8 shadow">
                 <div class="flex justify-between w-full items-center lg:col-span-2">
                     <div id="menu" class="lg:hidden cursor-pointer lg:ml-auto">
-                        <svg class="w-10 h-10 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                     </div>
                     <a href="/">
                         <div class="flex items-center">
                             <div>
-                                <img class="w-16 lg:w-64 lg:ml-0" src="{{ asset('images/phmlnigeria.png') }}" alt="phmlnigeria Logo">
+                                <img class="w-32 lg:w-64 lg:ml-0" src="{{ asset('images/phmlnigeria.png') }}" alt="phmlnigeria Logo">
                             </div>
                         </div>
                     </a>
@@ -205,7 +205,7 @@
             </div>
         </div>
         <!-- Mobile Nav -->
-        <div id="navMobile" class="w-full fixed h-screen z-30 hidden bg-white py-8">
+        <div id="navMobile" class="w-full fixed h-screen z-30 hidden bg-white py-8 top-14">
             <div class="list-none p-2 text-sm border-t bg-white pt-20">
                 <li class="py-3 px-8">
                     <a href="/" class="flex justify-between items-center">
@@ -251,9 +251,9 @@
         <!-- Footer  -->
         <div class="relative top-12">
             <div id="footer" class="bg-gray-100 py-12 px-8 lg:px-24 lg:grid grid-cols-4 gap-8 text-gray-900">
-                <div class="col-span-1">
+                <div class="col-span-1 mb-3">
                     <div>
-                        <img class="w-16 lg:w-64 lg:ml-0" src="{{ asset('images/phmlnigeria.png') }}" alt="phmlnigeria Logo">
+                        <img class="w-48 lg:w-64 lg:ml-0" src="{{ asset('images/phmlnigeria.png') }}" alt="phmlnigeria Logo">
                     </div>
                 </div>
                 <div class="col-span-1">
@@ -298,7 +298,7 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
+                                <a class="flex items-center py-1" href="https://erp.phmlnigeria.com/app/admin/">
                                     <span>webmail</span>
                                 </a>
                             </li>
@@ -309,7 +309,7 @@
                     <div>
                         <h1 class="text-2xl font-bold mb-4">Contact Us</h1>
                         <div class="my-2">
-                            #517 Sylvester Ugoh Crescent, (Police Pension Building), Jabi, Abuja
+                            Plot 517, Sylvester Ugoh Crescent, Off Idris Ibrahim Crescent, Off Obafemi Awolowo Way, Jabi, Abuja
                         </div>
                         <div class="my-2">
                             +2348174210058 <br>
