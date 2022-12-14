@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,15 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/future-projects', function () {
-    return view('future_project');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/', [HomeController::class, 'index'])->name('front');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/board', [HomeController::class, 'board'])->name('board');

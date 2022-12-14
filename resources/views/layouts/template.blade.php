@@ -27,12 +27,12 @@
             <div class="text-xs flex justify-between text-gray-700 py-4 border-b lg:px-24 px-8 items-center">
                 <div class="flex">
                     <span>24-Hr Contact Center |</span>
-                    <span class="flex ml-2 lg:block hidden">
+                    <span class="ml-2 lg:block hidden">
                         <span><i class="fa-solid fa-phone"></i></span>
                         <span class="ml-1"><a href="tel:+2349055293971">+ 234 905 529 3971</a>, </span>
                         <span class="ml-1"><a href="tel:+2348174210058">+ 234 817 421 0058</a></span>
                     </span>
-                    <span class="hidden flex ml-2 lg:block">
+                    <span class="hidden ml-2 lg:block">
                         <span><i class="fa-solid fa-envelope"></i></span>
                         <span class="ml-1"><a href="mailto:info@callcenter@phmlnigeria.com">callcenter@phmlnigeria.com</a></span>
                     </span>
@@ -76,8 +76,8 @@
                 </div>
                 <div class="lg:col-span-3 hidden lg:block">
                     <nav class="lg:flex justify-between list-none uppercase font-medium items-center">
-                        <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/">Home</a></li>
-                        <li class="py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
+                        <li class="{{ ($page_title == 'home') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/">Home</a></li>
+                        <li class="{{ ($page_title == 'about-us') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                                 About
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -86,12 +86,12 @@
                             </a>
                             <ul class="dropdown-menu min-w-max absolute w-full bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton2">
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="{{ route('about') }}">
                                         Our Company
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="{{ route('board') }}">
                                         The Board
                                     </a>
                                 </li>
@@ -208,7 +208,7 @@
         <div id="navMobile" class="w-full fixed h-screen z-30 hidden bg-white py-8 top-14">
             <div class="list-none p-2 text-sm border-t bg-white pt-20">
                 <li class="py-3 px-8">
-                    <a href="/" class="flex justify-between items-center">
+                    <a href="{{ route('front') }}" class="flex justify-between items-center">
                         <span>Home</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-house text-2xl"></i></span>
@@ -216,18 +216,10 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
-                        <span>Board of Trustees</span>
+                    <a href="{{ route('about') }}" class="flex justify-between items-center">
+                        <span>About Us</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-users text-2xl"></i></span>
-                    </a>
-                </li>
-                <hr>
-                <li class="py-3 px-8">
-                    <a href="/future-projects" class="flex justify-between border-b-1 items-center">
-                        <span>Future Project</span>
-                        &nbsp;&nbsp;
-                        <span><i class="fa-solid fa-briefcase text-2xl"></i></span>
                     </a>
                 </li>
                 <hr>
@@ -261,7 +253,7 @@
                         <h1 class="text-2xl font-bold mb-4">Our Company</h1>
                         <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/">
+                                <a class="flex items-center py-1" href="{{ route('about') }}">
                                     <span>About Us</span>
                                 </a>
                             </li>
