@@ -29,4 +29,12 @@ class HomeController extends Controller
 
     }
 
+    public function management()
+    {
+        $page_title = 'about-us';
+
+        return view('management', compact('page_title'));
+
+    }
+
 }

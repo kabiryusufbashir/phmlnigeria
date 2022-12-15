@@ -18,3 +18,4 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index'])->name('front');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/board', [HomeController::class, 'board'])->name('board');
+Route::get('/management', [HomeController::class, 'management'])->name('management');
