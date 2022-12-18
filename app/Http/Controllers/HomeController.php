@@ -37,4 +37,20 @@ class HomeController extends Controller
 
     }
 
+    public function departments()
+    {
+        $page_title = 'about-us';
+
+        return view('departments', compact('page_title'));
+
+    }
+
+    public function awards()
+    {
+        $page_title = 'about-us';
+
+        return view('awards', compact('page_title'));
+
+    }
+
 }
