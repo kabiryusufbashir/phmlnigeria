@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="{{ asset('css/app.css')}}" rel="stylesheet">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/production.css') }}" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico')}}"/>
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -209,7 +210,7 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="/contact" class="flex justify-between items-center">
+                    <a href="#" class="flex justify-between items-center">
                         <span>Contact Us</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-headset text-2xl"></i></span>
