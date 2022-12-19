@@ -53,4 +53,12 @@ class HomeController extends Controller
 
     }
 
+    public function mds()
+    {
+        $page_title = 'about-us';
+
+        return view('mds', compact('page_title'));
+
+    }
+
 }

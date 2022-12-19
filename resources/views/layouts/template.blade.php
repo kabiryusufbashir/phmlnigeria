@@ -75,7 +75,7 @@
                     </a>
                 </div>
                 <div class="lg:col-span-3 hidden lg:block">
-                    <nav class="lg:flex justify-between list-none uppercase font-medium items-center">
+                    <nav class="lg:flex justify-between list-none font-medium items-center">
                         <li class="{{ ($page_title == 'home') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/">Home</a></li>
                         <li class="{{ ($page_title == 'about-us') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 dropdown relative hover:border-b-2 hover:border-green-600">
                             <a class="flex" href="#" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -108,6 +108,11 @@
                                 <li>
                                     <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="{{ route('awards') }}">
                                         Awards
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="{{ route('mds') }}">
+                                        MDs
                                     </a>
                                 </li>
                             </ul>

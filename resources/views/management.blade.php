@@ -62,7 +62,7 @@
                     <div class="text-xs py-1">Head Internal Control & Audit</div>
                 </div>
                 <div class="text-center">
-                    <img class="w-64 mx-auto rounded-full my-4" src="{{ asset('images/no_photo.jpg') }}" alt="Mr. Abba Mustapha Jime Photo">
+                    <img class="w-64 mx-auto rounded-full my-4" src="{{ asset('images/ahit.jpg') }}" alt="Mr. Abba Mustapha Jime Photo">
                     <div class="text-lg py-1 font-semibold">Mr. Abba Mustapha Jime</div>
                     <div class="text-xs py-1">Ag. Head ICT</div>
                 </div>
