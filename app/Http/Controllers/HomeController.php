@@ -61,4 +61,12 @@ class HomeController extends Controller
 
     }
 
+    public function whyphml()
+    {
+        $page_title = 'services';
+
+        return view('whyphml', compact('page_title'));
+
+    }
+
 }
