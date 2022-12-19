@@ -23,3 +23,4 @@ Route::get('/departments', [HomeController::class, 'departments'])->name('depart
 Route::get('/awards', [HomeController::class, 'awards'])->name('awards');
 Route::get('/mds', [HomeController::class, 'mds'])->name('mds');
 Route::get('/whyphml', [HomeController::class, 'whyphml'])->name('whyphml');
+Route::get('/our-offerings', [HomeController::class, 'ourofferings'])->name('ourofferings');

@@ -69,4 +69,12 @@ class HomeController extends Controller
 
     }
 
+    public function ourofferings()
+    {
+        $page_title = 'services';
+
+        return view('ourofferings', compact('page_title'));
+
+    }
+
 }
