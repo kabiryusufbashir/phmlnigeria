@@ -244,7 +244,7 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#about-us">
+                                <a class="flex items-center py-1" href="{{ route('ourofferings') }}">
                                     <span>Our Offerings</span>
                                 </a>
                             </li>
@@ -256,7 +256,7 @@
                         <h1 class="text-2xl font-bold mb-4">Resources</h1>
                         <nav class="list-none text-gray-900">
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/">
+                                <a class="flex items-center py-1" href="{{ route('faqs') }}">
                                     <span>FAQs</span>
                                 </a>
                             </li>

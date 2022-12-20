@@ -8,7 +8,7 @@
     <!-- Body Contents  -->
     <div class="pt-8 pb-5 text-justify relative top-10">
         <!-- Board  -->
-        <div class="bg-gray-200 mt-4 py-16">
+        <div class="bg-white mt-4 py-16">
             <div class="text-center text-xl lg:text-xl py-4">Police Health Maintenance Limited</div>
             <div class="text-center text-2xl lg:text-5xl font-semibold py-4 mb-5">Meet the Management Team</div>
             

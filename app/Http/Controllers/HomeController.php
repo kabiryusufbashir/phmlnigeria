@@ -77,4 +77,13 @@ class HomeController extends Controller
 
     }
 
+    public function faqs()
+    {
+
+        $page_title = 'home';
+
+        return view('faqs', compact('page_title'));
+
+    }
+
 }

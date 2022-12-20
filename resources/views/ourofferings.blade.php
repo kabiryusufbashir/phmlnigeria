@@ -9,7 +9,7 @@
     <div class="pt-8 pb-5 text-justify relative top-10">
         
         <!-- History  -->
-        <div class="bg-gray-200 mt-3 py-16">
+        <div class="bg-white mt-3 py-16">
             <div class="lg:px-24 px-8 mx-auto pb-8 gap-6 items-center">
                 <div>
                     <div class="text-xl py-3 text-center">Ensuring that you and your family receive quality healthcare</div>

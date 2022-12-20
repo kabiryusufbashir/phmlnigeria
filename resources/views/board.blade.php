@@ -8,7 +8,7 @@
     <!-- Body Contents  -->
     <div class="pt-8 pb-5 text-justify relative top-10">
         <!-- Board  -->
-        <div class="bg-gray-200 mt-4 py-16">
+        <div class="bg-white mt-4 py-16">
             <div class="lg:px-24 px-8 mx-auto pb-8 lg:grid grid-cols-2 gap-6 items-center">
                 <div class="text-center">
                     <img class="w-64 mx-auto rounded-full" src="{{ asset('images/chairman.jpeg') }}" alt="IGP Alkali Baba Usman, psc (+), NPM, fdc Photo">
