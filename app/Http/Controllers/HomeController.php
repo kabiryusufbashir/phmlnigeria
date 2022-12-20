@@ -77,6 +77,15 @@ class HomeController extends Controller
 
     }
 
+    public function enlightment()
+    {
+
+        $page_title = 'services';
+
+        return view('enlightment', compact('page_title'));
+
+    }
+
     public function faqs()
     {
 

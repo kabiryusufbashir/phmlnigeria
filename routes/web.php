@@ -25,3 +25,4 @@ Route::get('/mds', [HomeController::class, 'mds'])->name('mds');
 Route::get('/whyphml', [HomeController::class, 'whyphml'])->name('whyphml');
 Route::get('/our-offerings', [HomeController::class, 'ourofferings'])->name('ourofferings');
 Route::get('/faqs', [HomeController::class, 'faqs'])->name('faqs');
+Route::get('/enlightment', [HomeController::class, 'enlightment'])->name('enlightment');
