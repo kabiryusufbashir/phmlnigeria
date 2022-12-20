@@ -98,7 +98,7 @@ class HomeController extends Controller
     public function downloads()
     {
 
-        $page_title = 'home';
+        $page_title = 'media';
 
         return view('downloads', compact('page_title'));
 
