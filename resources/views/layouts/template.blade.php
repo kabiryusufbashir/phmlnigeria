@@ -261,7 +261,7 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#about-us">
+                                <a class="flex items-center py-1" href="{{ route('downloads') }}">
                                     <span>Downloads</span>
                                 </a>
                             </li>

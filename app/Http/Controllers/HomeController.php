@@ -95,4 +95,13 @@ class HomeController extends Controller
 
     }
 
+    public function downloads()
+    {
+
+        $page_title = 'home';
+
+        return view('downloads', compact('page_title'));
+
+    }
+
 }
