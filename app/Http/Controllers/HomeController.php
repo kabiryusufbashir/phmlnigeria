@@ -104,4 +104,13 @@ class HomeController extends Controller
 
     }
 
+    public function contactUs()
+    {
+
+        $page_title = 'contact-us';
+
+        return view('contact', compact('page_title'));
+
+    }
+
 }

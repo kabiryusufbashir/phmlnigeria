@@ -183,7 +183,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="/contact">Contact Us</a></li>
+                        <li class="{{ ($page_title == 'contact-us') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="{{ route('contact-us') }}">Contact Us</a></li>
                         <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="https://erp.phmlnigeria.com/app/hospital/auth/">Provider's Portal</a></li>
                         <li class="bg-green-700 px-4 py-2 rounded hover:text-green-600 text-white hover:border-b-2 hover:border-green-600"><a href="#">Register Now</a></li>
                     </nav>

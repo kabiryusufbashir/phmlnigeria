@@ -27,3 +27,4 @@ Route::get('/our-offerings', [HomeController::class, 'ourofferings'])->name('our
 Route::get('/faqs', [HomeController::class, 'faqs'])->name('faqs');
 Route::get('/enlightment', [HomeController::class, 'enlightment'])->name('enlightment');
 Route::get('/downloads', [HomeController::class, 'downloads'])->name('downloads');
+Route::get('/contact', [HomeController::class, 'contactUs'])->name('contact-us');
