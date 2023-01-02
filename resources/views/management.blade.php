@@ -52,7 +52,7 @@
                 <div class="text-center">
                     <img class="w-64 mx-auto rounded-full my-4" src="{{ asset('images/cam.jpeg') }}" alt="Mrs. Aisha Ali Photo">
                     <div class="text-lg py-1 font-semibold">Mrs. Aisha Ali</div>
-                    <div class="text-xs py-1">Corporate Affairs Manager</div>
+                    <div class="text-xs py-1">Head, Corporate Affairs</div>
                 </div>
             </div>
             <div class="lg:px-24 px-8 mx-auto pb-8 lg:grid grid-cols-2 gap-6 items-center my-6">

@@ -185,7 +185,7 @@
                         </li>
                         <li class="{{ ($page_title == 'contact-us') ? 'border-b-2 border-green-600' : '' }} py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="{{ route('contact-us') }}">Contact Us</a></li>
                         <li class="py-1 hover:text-green-600 text-gray-700 hover:border-b-2 hover:border-green-600"><a href="https://erp.phmlnigeria.com/app/hospital/auth/">Provider's Portal</a></li>
-                        <li class="bg-green-700 px-4 py-2 rounded hover:text-green-600 text-white hover:border-b-2 hover:border-green-600"><a href="#">Register Now</a></li>
+                        <li class="bg-green-700 px-4 py-2 rounded hover:text-green-600 text-white hover:border-b-2 hover:border-green-600"><a href="https://erp.phmlnigeria.com/app/hospital/auth/">Register Now</a></li>
                     </nav>
                 </div>
             </div>
@@ -210,7 +210,31 @@
                 </li>
                 <hr>
                 <li class="py-3 px-8">
-                    <a href="#" class="flex justify-between items-center">
+                    <a href="{{ route('board') }}" class="flex justify-between items-center">
+                        <span>The Board</span>
+                        &nbsp;&nbsp;
+                        <span><i class="fa-solid fa-users text-2xl"></i></span>
+                    </a>
+                </li>
+                <hr>
+                <li class="py-3 px-8">
+                    <a href="{{ route('management') }}" class="flex justify-between items-center">
+                        <span>Management Team</span>
+                        &nbsp;&nbsp;
+                        <span><i class="fa-solid fa-users text-2xl"></i></span>
+                    </a>
+                </li>
+                <hr>
+                <li class="py-3 px-8">
+                    <a href="{{ route('mds') }}" class="flex justify-between items-center">
+                        <span>MDs</span>
+                        &nbsp;&nbsp;
+                        <span><i class="fa-solid fa-users text-2xl"></i></span>
+                    </a>
+                </li>
+                <hr>
+                <li class="py-3 px-8">
+                    <a href="{{ route('contact-us') }}" class="flex justify-between items-center">
                         <span>Contact Us</span>
                         &nbsp;&nbsp;
                         <span><i class="fa-solid fa-headset text-2xl"></i></span>
@@ -248,6 +272,21 @@
                                     <span>Our Offerings</span>
                                 </a>
                             </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="{{ route('board') }}">
+                                    <span>The Board</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="{{ route('management') }}">
+                                    <span>The Management</span>
+                                </a>
+                            </li>
+                            <li class="py-1 hover:text-gray-800">
+                                <a class="flex items-center py-1" href="{{ route('mds') }}">
+                                    <span>MDs</span>
+                                </a>
+                            </li>
                         </nav>
                     </div>
                 </div>
@@ -266,17 +305,12 @@
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="/#mission">
+                                <a class="flex items-center py-1" href="https://erp.phmlnigeria.com/app/hospital/auth/">
                                     <span>Apply Now</span>
                                 </a>
                             </li>
                             <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="#">
-                                    <span>Cookies and Privacy Policy</span>
-                                </a>
-                            </li>
-                            <li class="py-1 hover:text-gray-800">
-                                <a class="flex items-center py-1" href="https://erp.phmlnigeria.com/app/admin/">
+                                <a class="flex items-center py-1" href="https://webmail.phmlnigeria.com">
                                     <span>webmail</span>
                                 </a>
                             </li>

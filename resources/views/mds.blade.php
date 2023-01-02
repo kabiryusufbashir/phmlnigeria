@@ -13,24 +13,57 @@
             <div class="text-center text-2xl lg:text-5xl font-semibold py-4 mb-5">MDs</div>
             
             <div class="lg:px-24 px-8 mx-auto pb-8 items-center">
-                <div class="text-center">
-                    <img class="w-64 mx-auto my-4" src="{{ asset('images/md-001.png') }}" alt="Dr. Yusuf Kalli Gazali Photo">
-                </div>
-            </div>
-            <div class="lg:px-24 px-8 mx-auto pb-8 lg:grid grid-cols-2 gap-6 items-center my-6">
-                <div class="text-center">
-                    <img class="w-64 mx-auto my-4" src="{{ asset('images/md-002.png') }}" alt="Mr. Ahmed Isyaku Photo">
-                </div>
-                <div class="text-center">
-                    <img class="w-64 mx-auto my-4" src="{{ asset('images/md-003.png') }}" alt="Mr. Abdulkarim Abubakar Photo">
-                </div>
-            </div>
-            <div class="lg:px-24 px-8 mx-auto pb-8 lg:grid grid-cols-2 gap-6 items-center my-6">
-                <div class="text-center">
-                    <img class="w-64 mx-auto my-4" src="{{ asset('images/md-004.png') }}" alt="Dr. Yinnang Wushipba Damwa Photo">
-                </div>
-                <div class="text-center">
-                    <img class="w-64 mx-auto my-4" src="{{ asset('images/md-005.png') }}" alt="Dr. Abdullahi Idris El-Agbo Photo">
+                <div class="lg:flex">
+                    <div class="border border-green-600 my-4">
+                        <div class="text-center">
+                            <img class="w-64 mx-auto mt-4" src="{{ asset('images/md-001.png') }}" alt="Dr. Yusuf Kalli Gazali Photo">
+                        </div>
+                        <div class="bg-gray-500 mx-auto text-center w-64 text-white py-3">
+                            <div class="text-lg">Dr Yusuf Kalli Gazali</div> 
+                            <div class="text-sm">MD/CEO POLICE HEALTH MAINTENANCE</div> 
+                            <div class="text-xs">June 2022 - Present</div> 
+                        </div>
+                    </div>
+                    <div class="border border-green-600 my-4">
+                        <div class="text-center">
+                            <img class="w-64 mx-auto mt-4" src="{{ asset('images/md-002.png') }}" alt="Dr Ahmad Garba Yakasai">
+                        </div>
+                        <div class="bg-gray-500 mx-auto text-center w-64 text-white py-3">
+                            <div class="text-lg">Dr Ahmad Garba Yakasai</div> 
+                            <div class="text-sm">MD/CEO POLICE HEALTH MAINTENANCE</div> 
+                            <div class="text-xs">October 2018 - June 2022</div> 
+                        </div>
+                    </div>
+                    <div class="border border-green-600 my-4">
+                        <div class="text-center">
+                            <img class="w-64 mx-auto mt-4" src="{{ asset('images/md-004.png') }}" alt="Dr Samuel Ali Photo">
+                        </div>
+                        <div class="bg-gray-500 mx-auto text-center w-64 text-white py-3">
+                            <div class="text-lg">Dr Samuel Ali</div> 
+                            <div class="text-sm">MD/CEO POLICE HEALTH MAINTENANCE</div> 
+                            <div class="text-xs">January 2018 - May 2018</div> 
+                        </div>
+                    </div>
+                    <div class="border border-green-600 my-4">
+                        <div class="text-center">
+                            <img class="w-64 mx-auto mt-4" src="{{ asset('images/md-005.png') }}" alt="AIG (RTD) Alex Emeka Okeke. psc, NPM. Photo">
+                        </div>
+                        <div class="bg-gray-500 mx-auto text-center w-64 text-white py-3">
+                            <div class="text-lg">AIG (RTD) Alex Emeka Okeke</div> 
+                            <div class="text-sm">MD/CEO POLICE HEALTH MAINTENANCE</div> 
+                            <div class="text-xs">January 2017 - December 2017</div> 
+                        </div>
+                    </div>
+                    <div class="border border-green-600 my-4">
+                        <div class="text-center">
+                            <img class="w-64 mx-auto mt-4" src="{{ asset('images/md-003.png') }}" alt="Mr. Abdulkarim Abubakar Photo">
+                        </div>
+                        <div class="bg-gray-500 mx-auto text-center w-64 text-white py-3">
+                            <div class="text-lg">Dr Donald Eneh</div> 
+                            <div class="text-sm">MD/CEO POLICE HEALTH MAINTENANCE</div> 
+                            <div class="text-xs">March 2013 - January 2017</div> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

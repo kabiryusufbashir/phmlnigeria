@@ -68,6 +68,23 @@ body{
     margin: 0px auto;
 }
 
+.slogan-logo{
+    animation: logo 5s ease forwards;
+}
+
+
+@keyframes logo{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(25deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 @media only screen and (max-width:768px)
 {
     body{
