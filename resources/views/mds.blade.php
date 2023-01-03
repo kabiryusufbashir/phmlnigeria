@@ -13,17 +13,19 @@
             <div class="text-center text-2xl lg:text-5xl font-semibold py-4 mb-5">MDs</div>
             
             <div class="lg:px-24 px-8 mx-auto pb-8 items-center">
-                <div class="lg:flex">
-                    <div class="border border-green-600 my-4">
-                        <div class="text-center">
-                            <img class="w-64 mx-auto mt-4" src="{{ asset('images/md-001.png') }}" alt="Dr. Yusuf Kalli Gazali Photo">
-                        </div>
-                        <div class="bg-gray-500 mx-auto text-center w-64 text-white py-3">
-                            <div class="text-lg">Dr Yusuf Kalli Gazali</div> 
-                            <div class="text-sm">MD/CEO POLICE HEALTH MAINTENANCE</div> 
-                            <div class="text-xs">June 2022 - Present</div> 
-                        </div>
+                <div class="my-4">
+                    <div class="text-center">
+                        <img class="border border-green-600 w-64 mx-auto mt-4" src="{{ asset('images/md-001.png') }}" alt="Dr. Yusuf Kalli Gazali Photo">
                     </div>
+                    <div class="bg-gray-500 mx-auto text-center w-64 text-white py-3">
+                        <div class="text-lg">Dr Yusuf Kalli Gazali</div> 
+                        <div class="text-sm">MD/CEO POLICE HEALTH MAINTENANCE</div> 
+                        <div class="text-xs">October 2022 - Present</div> 
+                    </div>
+                </div>
+            </div>
+            <div class="lg:px-24 px-8 mx-auto pb-8 items-center">
+                <div class="lg:flex justify-center">
                     <div class="border border-green-600 my-4">
                         <div class="text-center">
                             <img class="w-64 mx-auto mt-4" src="{{ asset('images/md-002.png') }}" alt="Dr Ahmad Garba Yakasai">
